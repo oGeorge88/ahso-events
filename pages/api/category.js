@@ -1,4 +1,4 @@
-import connectDB from "@/lib/mongodb";
+/*import connectDB from "@/lib/mongodb";
 import { ObjectId } from "mongodb";
 
 export default async function handler(req, res) {
@@ -8,7 +8,7 @@ export default async function handler(req, res) {
 
   try {
     const client = await connectDB();
-    const database = client.db("au-event");
+    const database = client.db("AHSO_Event"); 
 
     const categoriesCollection = database.collection("categories");
     const eventsCollection = database.collection("events");
@@ -36,3 +36,4 @@ export default async function handler(req, res) {
     res.status(500).json({ success: false, message: "Internal Server Error" });
   }
 }
+*/

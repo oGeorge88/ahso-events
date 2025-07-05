@@ -1,4 +1,4 @@
-import connectDB from "@/lib/mongodb";
+/*import connectDB from "@/lib/mongodb";
 import { ObjectId } from "mongodb";
 
 export default async function handler(req, res) {
@@ -8,11 +8,12 @@ export default async function handler(req, res) {
 
   try {
     const client = await connectDB();
-    const database = client.db("au-event");
+    const database = client.db("AHSO_Event"); 
     const categoriesCollection = database.collection("categories");
     const eventsCollection = database.collection("events");
 
     const { name, date, time, category, description, imageURL } = req.body;
+    console.log(req.body)
 
     if (!name || !date || !time || !category || !description || !imageURL) {
       return res.status(400).json({ success: false, message: "Missing required fields" });
@@ -51,13 +52,12 @@ export default async function handler(req, res) {
       createdAt: new Date(),
     };
 
-
     const result = await eventsCollection.insertOne(newEvent);
 
-    res.status(201).json({ success: true, event: newEvent });
+    res.status(201).json({ success: true, data: newEvent });
 
   } catch (error) {
     console.error("Error inserting event:", error);
     res.status(500).json({ success: false, message: "Internal Server Error" });
   }
-}
+}*/
