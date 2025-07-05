@@ -46,16 +46,16 @@ importers:
         version: 3.1.1(react@19.1.0)
     devDependencies:
       '@eslint/eslintrc':
-        specifier: ^3
+        specifier: ^3.0.0
         version: 3.3.1
       eslint:
-        specifier: ^9
+        specifier: ^9.0.0
         version: 9.23.0(jiti@1.21.7)
       eslint-config-next:
         specifier: 15.1.6
         version: 15.1.6(eslint@9.23.0(jiti@1.21.7))(typescript@5.8.2)
       postcss:
-        specifier: ^8
+        specifier: ^8.0.0
         version: 8.5.3
       tailwindcss:
         specifier: ^3.4.1
