@@ -12,7 +12,7 @@ Browse **upcoming**, **past**, or **all** events with dynamic filtering, smart s
 * 🔍 **Event Browsing** – Instantly filter upcoming, past, or all events with real-time data from MongoDB.
 * 🔦 **Smart Search** – Quickly find events by name using a responsive, real-time search input.
 * 🎨 **Theme-Ready UI** – Fully styled with TailwindCSS including **dark mode** support and smooth transitions.
-* 🔐 **Secure Admin Authentication** – Admin signup requires a secure passcode (`adminispowerful`) for registration; login with email and passcode.
+* 🔐 **Secure Admin Authentication** – Admin signup requires a super admin passcode for registration; login with email and passcode.
 * 📅 **Dynamic Date Filtering** – Backend logic cleanly separates events by date.
 * 🧭 **Sidebar Navigation** – Persistent sidebar for seamless navigation on desktop and mobile.
 * ⚙️ **Settings Page** – Dark mode toggle, language switch (English ↔ Igbo), and notification preferences.
@@ -47,7 +47,7 @@ Browse **upcoming**, **past**, or **all** events with dynamic filtering, smart s
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/your-username/ahso-events.git
+   git clone https://github.com/oGeorge88/ahso-events.git
    cd ahso-events
    ```
 
